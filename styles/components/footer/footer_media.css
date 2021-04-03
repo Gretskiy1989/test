@@ -1,0 +1,25 @@
+@media only screen and (max-width: 767px) {
+  .footer-wrapper {
+    background: var(--main-font-color-2);
+    text-align: center;
+    padding: 25px 0;
+    font-family: var(--main-font-family);
+    font-size: var(--font-sm);
+    opacity: 0.6;
+    color: black;
+    border-top: 1px solid #c3c2c2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-wrapper {
+    background: var(--main-font-color-2);
+    text-align: center;
+    padding: 15px 0;
+    font-family: var(--main-font-family);
+    font-size: var(--font-sm);
+    opacity: 0.6;
+    color: black;
+    border-top: 1px solid #c3c2c2;
+  }
+}

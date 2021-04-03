@@ -1,0 +1,14 @@
+footer {
+  flex-grow: 1;
+}
+
+.footer-wrapper {
+  background: white;
+  text-align: center;
+  padding: 40px 0;
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  opacity: 0.6;
+  color: black;
+  border-top: 1px solid #c3c2c2;
+}

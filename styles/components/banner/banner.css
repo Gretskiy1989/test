@@ -1,0 +1,67 @@
+main .banner {
+  background: #d3d4d4;
+  background-image: url(../../../images/fone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 58px;
+  padding: 38px 0 20px 75px;
+}
+
+main .banner-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-logo,
+.banner-info {
+  width: 50%;
+}
+
+.banner-logo {
+  height: 100%;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-info h1 {
+  color: whitesmoke;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: var(--font-hight);
+  margin: 0 0 10px 0;
+}
+
+.banner-info h2 {
+  font-family: var(--main-font-family);
+  color: whitesmoke;
+  font-size: var(--font-xlg);
+  margin: 15px 0px 15px 0px;
+}
+
+.button {
+  margin-top: 18px;
+  width: 173px;
+  height: 41px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 2px;
+  color: whitesmoke;
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.button img {
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+}
+
+button.active,
+button:hover {
+  box-shadow: 0 0 15px 3px whitesmoke;
+}

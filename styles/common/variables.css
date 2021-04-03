@@ -1,0 +1,19 @@
+:root {
+  --content-width: 980px;
+
+  --main-font-color: #6c6c6c;
+  --main-font-color-2: whitesmoke;
+  --secondary-color: #5094f2;
+  --third-color: #d94748;
+  --fourth-color: #ebbb11;
+
+  --font-sm-mob: 13px;
+  --font-sm: 15px;
+  --font-md: 20px;
+  --font-xlg: 25px;
+  --font-hight: 35px;
+  --main-font-family: "Open Sans", sans-serif;
+
+  --container-x-offset: 15px;
+  --container-y-offset: 0px;
+}
